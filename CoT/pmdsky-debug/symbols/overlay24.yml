@@ -1,0 +1,94 @@
+overlay24:
+  versions:
+    - EU
+    - NA
+    - JP
+  address:
+    EU: 0x238AC80
+    NA: 0x238A140
+    JP: 0x238B6A0
+  length:
+    EU: 0x24E0
+    NA: 0x24E0
+    JP: 0x24E0
+  description: Controls the Chansey Day Care.
+  functions: []
+  data:
+    - name: OVERLAY24_UNKNOWN_STRUCT__NA_238C508
+      address:
+        NA: 0x238C508
+      length:
+        NA: 0xC
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY24_UNKNOWN_STRUCT__NA_238C514
+      address:
+        NA: 0x238C514
+      length:
+        NA: 0xC
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: DAYCARE_MENU_CONFIRM
+      address:
+        EU: 0x238D060
+        NA: 0x238C520
+        JP: 0x238DA88
+      length:
+        EU: 0x18
+        NA: 0x18
+        JP: 0x18
+    - name: DAYCARE_MAIN_MENU
+      address:
+        EU: 0x238D078
+        NA: 0x238C538
+        JP: 0x238DAA0
+      length:
+        EU: 0x20
+        NA: 0x20
+        JP: 0x20
+    - name: OVERLAY24_UNKNOWN_STRING_IDS
+      address:
+        NA: 0x238C558
+      length:
+        NA: 0x38
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: DAYCARE_D_BOX_LAYOUT_1
+      address:
+        NA: 0x238C590
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: DAYCARE_D_BOX_LAYOUT_2
+      address:
+        NA: 0x238C5A0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: DAYCARE_D_BOX_LAYOUT_3
+      address:
+        NA: 0x238C5B0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: DAYCARE_D_BOX_LAYOUT_4
+      address:
+        NA: 0x238C5C0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: DAYCARE_D_BOX_LAYOUT_5
+      address:
+        NA: 0x238C5D0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY24_RESERVED_SPACE
+      address:
+        NA: 0x238C5E0
+      length:
+        NA: 0x20
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY24_UNKNOWN_POINTER__NA_238C600
+      address:
+        NA: 0x238C600
+      length:
+        NA: 0x4
+      description: "Note: unverified, ported from Irdkwia's notes"

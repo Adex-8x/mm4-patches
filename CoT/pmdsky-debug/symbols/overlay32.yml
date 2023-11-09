@@ -1,0 +1,16 @@
+overlay32:
+  versions:
+    - EU
+    - NA
+    - JP
+  address:
+    EU: 0x2383420
+    NA: 0x2382820
+    JP: 0x2383AA0
+  length:
+    EU: 0x20
+    NA: 0x20
+    JP: 0x20
+  description: Unused; all zeroes.
+  functions: []
+  data: []

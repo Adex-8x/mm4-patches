@@ -1,0 +1,40 @@
+This file contains a list of people who have made notable contributions to the
+substantive contents of pmdsky-debug. List order is determined by when
+someone's contributions were incorporated into this repository, and is
+unrelated to contribution size or importance.
+
+If you have made a contribution, whether to the symbol tables, C headers, or
+other parts of the project, feel free to add yourself to this file!
+
+- UsernameFodder
+- psy_commando
+- evandixon
+- Capypara
+- End45
+- irdkwia
+- Nov
+- AnonymousRandomPerson
+- OgreGunner
+- ShinxHijinx
+- ZappedAmpharos
+- Nerketur
+- Aissurteivos
+- SBDWolf
+- marius851000
+- Metalcape
+- kkzero
+- EpicYoshiMaster
+- Jawshoeuh
+- Adex
+- Laioxy
+- The rest of the contributors to Project Pokémon's technical documentation
+  for the NDS Mystery Dungeon games, which can be found here:
+  https://projectpokemon.org/home/docs/mystery-dungeon-nds/
+- The rest of the contributors to End45's dungeon data doc,
+  which can be found here:
+  https://docs.google.com/document/d/1UfiFz4xAPtGd-1X2JNE0Jy2z-BLkze1PE4Fo9u-QeYo
+- The rest of the contributors to the PMD Info Spreadsheet,
+  which can be found here:
+  https://docs.google.com/spreadsheets/d/18utO_lCpWQ7iXY9wpbtxXpgmzebEI2IRjADp6IrUKZ0
+- The rest of the contributors to the pmd-sky decompilation project,
+  which can be found here: https://github.com/pret/pmd-sky

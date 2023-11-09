@@ -1,0 +1,1 @@
+extern int ACTORS_WITH_BLOB_EFFECT[];

@@ -1,0 +1,193 @@
+overlay18:
+  versions:
+    - EU
+    - NA
+    - JP
+  address:
+    EU: 0x238AC80
+    NA: 0x238A140
+    JP: 0x238B6A0
+  length:
+    EU: 0x3500
+    NA: 0x3500
+    JP: 0x3520
+  description: Controls the Electivire Link Shop.
+  functions: []
+  data:
+    - name: OVERLAY18_D_BOX_LAYOUT_1
+      address:
+        NA: 0x238D270
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_2
+      address:
+        NA: 0x238D280
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_3
+      address:
+        NA: 0x238D290
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_4
+      address:
+        NA: 0x238D2A0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_5
+      address:
+        NA: 0x238D2B0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_6
+      address:
+        NA: 0x238D2C0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_7
+      address:
+        NA: 0x238D2D0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_8
+      address:
+        NA: 0x238D2E0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_9
+      address:
+        NA: 0x238D2F0
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_10
+      address:
+        NA: 0x238D300
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_D_BOX_LAYOUT_11
+      address:
+        NA: 0x238D310
+      length:
+        NA: 0x10
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: MOVES_MENU_CONFIRM
+      address:
+        EU: 0x238DE60
+        NA: 0x238D320
+        JP: 0x238E88C
+      length:
+        EU: 0x18
+        NA: 0x18
+        JP: 0x18
+    - name: MOVES_SUBMENU_1
+      address:
+        EU: 0x238DE78
+        NA: 0x238D338
+        JP: 0x238E8A4
+      length:
+        EU: 0x20
+        NA: 0x20
+        JP: 0x20
+    - name: MOVES_SUBMENU_2
+      address:
+        EU: 0x238DE98
+        NA: 0x238D358
+        JP: 0x238E8C4
+      length:
+        EU: 0x20
+        NA: 0x20
+        JP: 0x20
+    - name: MOVES_MAIN_MENU
+      address:
+        EU: 0x238DEB8
+        NA: 0x238D378
+        JP: 0x238E8E4
+      length:
+        EU: 0x20
+        NA: 0x20
+        JP: 0x20
+    - name: MOVES_SUBMENU_3
+      address:
+        EU: 0x238DED8
+        NA: 0x238D398
+        JP: 0x238E904
+      length:
+        EU: 0x28
+        NA: 0x28
+        JP: 0x28
+    - name: MOVES_SUBMENU_4
+      address:
+        EU: 0x238DF00
+        NA: 0x238D3C0
+        JP: 0x238E92C
+      length:
+        EU: 0x30
+        NA: 0x30
+        JP: 0x30
+    - name: MOVES_SUBMENU_5
+      address:
+        EU: 0x238DF30
+        NA: 0x238D3F0
+        JP: 0x238E95C
+      length:
+        EU: 0x48
+        NA: 0x48
+        JP: 0x48
+    - name: MOVES_SUBMENU_6
+      address:
+        EU: 0x238DF78
+        NA: 0x238D438
+        JP: 0x238E9A4
+      length:
+        EU: 0x48
+        NA: 0x48
+        JP: 0x48
+    - name: MOVES_SUBMENU_7
+      address:
+        EU: 0x238DFC0
+        NA: 0x238D480
+        JP: 0x238E9EC
+      length:
+        EU: 0x48
+        NA: 0x48
+        JP: 0x48
+    - name: OVERLAY18_FUNCTION_POINTER_TABLE
+      address:
+        NA: 0x238D4C8
+      length:
+        NA: 0x130
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_RESERVED_SPACE
+      address:
+        NA: 0x238D61C
+      length:
+        NA: 0x4
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_UNKNOWN_POINTER__NA_238D620
+      address:
+        NA: 0x238D620
+      length:
+        NA: 0x4
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_UNKNOWN_POINTER__NA_238D624
+      address:
+        NA: 0x238D624
+      length:
+        NA: 0x4
+      description: "Note: unverified, ported from Irdkwia's notes"
+    - name: OVERLAY18_UNKNOWN_POINTER__NA_238D628
+      address:
+        NA: 0x238D628
+      length:
+        NA: 0x4
+      description: "Note: unverified, ported from Irdkwia's notes"
