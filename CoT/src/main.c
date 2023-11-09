@@ -31,7 +31,7 @@ int DungeonMagicNumberCheck(short dungeon_id)
         // ChangeOptions();
         RemoveAllItemsStartingAt(0);
         RemoveActiveMembersFromAllTeams();
-        PutRecruitable(0, BWAIX_ID, 24, 215);
+        PutRecruitable(0, BWAIX_ID, 24, 216);
         SetMentryName(0, "Bwaix");
         struct ground_monster* member = GetTeamMember(0);
         member->max_hp = 128;
