@@ -57,7 +57,7 @@ INCLUDES	:=	include pmdsky-debug/headers
 OPT_LEVEL := -O2
 
 # Change to "RELEASE_CONFIG := -DNDEBUG" for release builds without asserts and logs
-RELEASE_CONFIG := -DDEBUG
+RELEASE_CONFIG := -DNDEBUG
 
 PYTHON := python3
 
