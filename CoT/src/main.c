@@ -327,15 +327,20 @@ bool CustomMoveHitCheck(struct entity* attacker, struct entity* defender, struct
   earth_power_missed = false;
   if(marcus == attacker && bwaix == defender && move_id != MOVE_REGULAR_ATTACK && (has_used_move[FindMoveIndex(marcus_mon, move->id.val)]))
   {
-    WaitFrames(30);
     struct button_struct held_buttons;
     // struct button_struct pressed_buttons;
-    GetHeldButtons(0, &held_buttons);
     // GetPressedButtons(0, &pressed_buttons);
     switch(move->id.val)
     {
       case MOVE_EARTH_POWER:
-        held_buttons.bitfield &= 0b11110000;
+        for(int i = 0; i < 30; i++)
+        {
+          GetHeldButtons(0, &held_buttons);
+          held_buttons.bitfield &= 0b11110000;
+          if(held_buttons.bitfield != 0)
+            break;
+          AdvanceFrame(0);
+        }
         if(held_buttons.bitfield != 0)
         {
           // Check the tile based on inputs, and if we can jump to it, then dodge the attack!
@@ -378,6 +383,13 @@ bool CustomMoveHitCheck(struct entity* attacker, struct entity* defender, struct
         }
         break;
       case MOVE_BUG_BUZZ:
+        for(int i = 0; i < 30; i++)
+        {
+          GetHeldButtons(0, &held_buttons);
+          if(held_buttons.bitfield & 0x2)
+            break;
+          AdvanceFrame(0);
+        }
         if(held_buttons.bitfield & 0x2) // B
         {
           DodgeWarp(bwaix);
