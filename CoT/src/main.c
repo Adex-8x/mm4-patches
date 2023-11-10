@@ -785,14 +785,7 @@ void CustomRunMonsterAi(struct entity* entity, undefined param_2)
         if(sub_phase >= 4)
         {
           if(!(ShadowExists()))
-          {
-            if(AreEntitiesAdjacent(bwaix, entity))
-            {
-              TryWarp(bwaix, entity, WARP_RANDOM, NULL);
-              WaitFrames(30);
-            }
             SpawnShadows(2);
-          }
           if(sub_phase >= 6)
             SetMonsterUseMove(entity, monster, MOVE_EARTH_POWER, marcus_direction);
           else
