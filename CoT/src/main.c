@@ -327,6 +327,7 @@ bool CustomMoveHitCheck(struct entity* attacker, struct entity* defender, struct
   earth_power_missed = false;
   if(marcus == attacker && bwaix == defender && move_id != MOVE_REGULAR_ATTACK && (has_used_move[FindMoveIndex(marcus_mon, move->id.val)]))
   {
+    WaitFrames(30);
     struct button_struct held_buttons;
     // struct button_struct pressed_buttons;
     GetHeldButtons(0, &held_buttons);
